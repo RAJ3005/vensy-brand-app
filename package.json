@@ -1,0 +1,58 @@
+{
+  "name": "vensy-brand-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@sentry/browser": "^5.6.3",
+    "add": "^2.0.6",
+    "axios": "^0.19.0",
+    "classnames": "^2.2.6",
+    "date-fns": "^2.1.0",
+    "express-query-parser": "^1.0.2",
+    "fingerprintjs2": "^2.1.0",
+    "firebase": "^7.14.5",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "prop-types": "^15.7.2",
+    "raven-js": "^3.27.0",
+    "rc-checkbox": "^2.1.8",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-emoji-render": "^1.2.2",
+    "react-redux": "^7.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.2.0",
+    "react-select": "^3.1.0",
+    "react-sidebar": "^3.0.2",
+    "react-toastify": "^5.3.1",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.5",
+    "redux-auth-wrapper": "^2.1.0",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "rodal": "^1.8.1",
+    "source-map-explorer": "^2.1.0",
+    "yarn": "^1.17.3"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "compress": "npm run build && gzip build/static/js/*.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "svg:sprite": "svg-sprite-generate -d ./src/assets/svgs -o ./src/assets/sprite.svg"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
